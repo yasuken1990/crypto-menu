@@ -60,6 +60,7 @@
                                 </a>
                             </div>
                         </div>
+                        {!! app('captcha')->render() !!}
                     </form>
                 </div>
             </div>
